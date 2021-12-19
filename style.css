@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+body{
+    padding-top: 20px;
+    width: 1400px;
+}
+.menu_1{
+    display: flex;
+    justify-content: space-around;
+}
+.menu_numb{
+    padding-right: 20px;
+    margin-left: -20px;
+    border-right: 1px solid #E2E2E2;
+    align-items: center;
+    display: flex;
+}
+.menu_numb i{
+    margin-top: -20px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.ur{
+    font-family: "Suisse Int'l Trial";
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+    border-left: 1px solid #E2E2E2;
+    border-right: 1px solid #E2E2E2;
+}
+.ur p:hover{
+    width: 30px;
+    margin-left: 32px;
+    background-color: turquoise;
+    color: white;
+}
+.ue{
+    padding-right: 20px;
+    margin-left: -20px;
+    border-right: 1px solid #E2E2E2;
+}
+.menu_icon{
+    padding-right: 20px;
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #E2E2E2;
+}
+.menu_icon i{
+    margin-left: 10px;
+    color: #808080;
+}
+.maonline{
+    overflow: hidden;
+    font-size: 20px;
+    font-family: Montserrat;
+    padding-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 240px;
+    background: #EFF3F6;
+    align-items: center;
+}
+.online_icon{
+    margin-left: 13px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+}
+.online_icon i{
+    color: white;
+    font-size: 30px;
+}
+.tonline{
+    overflow: hidden;
+    font-size: 20px;
+    font-family: Montserrat;
+    padding-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 240px;
+    background: #EFF3F6;
+    align-items: center;
+}
+.tonline_icon{
+    margin-left: 28px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+}
+.tonline_icon i{
+    font-size: 25px;
+    color: white;
+}
+.glob_nav_header_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid #777777;
+}
+.glob_nav_header_1 li:hover{
+    border-bottom: 3px solid red;
+    box-sizing: border-box;
+}
+.glob_nav_header_1 .nav-link{
+    margin-left: 40px;
+}
+.nav-link{
+    color: black;
+}
+
+
+.colective_header{
+    padding: 50px;
+    display: flex;
+    border-bottom: 1px solid #D0D0D0;
+}
+.colective_header h1{
+    width: 700px;
+    text-align: start;
+    font-family: Montserrat;
+    font-size: 30px;
+}
+.colective_header h6{
+    margin: auto;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+.colective_header p{
+    margin: auto;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #D0D0D0;
+}
+.colective_content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.colective_card{
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+}
+.card_info{
+    width: 400px;
+    height: 150px;
+    padding-top: -20px;
+    padding-left: 20px;
+}
+.colective_card h1{
+    height: 40px;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+.colective_card p{
+    height: 60px;
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #999999;
+}
+.card_info a{
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #323232;
+}
+.contact{
+    padding: 20px 50px 50px 50px;
+}
+.contact_cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact_text{
+    font-family: Montserrat;
+}
+.contact_text h1{
+    margin: 20px;
+    font-size: 30px;
+}
+.contact_text p{
+    margin: 20px;
+    color: #848484;
+    font-size: 12px;
+}
+.contact_text h4{
+    margin: 20px;
+    font-size: 16px;
+}
+.contact span{
+    color: #777;
+}
+.contact_form{
+    width: 450px;
+    height: 460px;
+    background: #F8F8F8;
+    padding: 20px;
+}
+.contact_form input{
+    width: 370px;
+    height: 50px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.contact_form button{
+    width: 370px;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.content_footer{
+    display: flex;
+    justify-content: center;
+}
+.content_footer p{
+    margin: 10px;
+    color: #969696;
+}
+.content_footer p:hover{
+    color: black;
+}
+.content_footer input{
+    width: 60px;
+    margin-top: 0;
+}
+.footer_top{
+    padding-bottom: 40px;
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgba(29, 29, 29, 0.2);;
+    width: 1100px;
+    margin: 40px auto 0 auto;
+}
+.footer_top img{
+    width: 156px;
+    height: 86px;
+}
+.footer_top_munu_1{
+    font-family: "Suisse Int'l Trial";
+    font-size: 15px;
+}
+.footer_top_munu_1 p{
+    margin: 2px;
+}
+.footer_top_munu_2{
+    font-family: "Suisse Int'l Trial";
+    font-size: 15px;
+}
+.footer_top_munu_2 p{
+    margin: 2px;
+}
+.footer_top_p p {
+    font-size: 12px;
+    color: #3E3E3E;
+    opacity: 0.5;
+}
+.footer_top_p h4{
+    font-size: 15px;
+}
+.footer_top_number h4{
+    font-size: 12px;
+    color: #3E3E3E;
+    opacity: 0.5; 
+}
+.footer_top_number{
+    font-size: 15px;
+}
+.footer_bottom{
+    display: flex;
+    padding: 20px 150px 0 150px;
+}
+.footer_bottom_i{
+    width: 100%;
+    text-align: end;
+}
+.footer_bottom_i i {
+    color: #3E3E3E;
+}
+.footer_bottom_p{
+    position: absolute;
+    color: rgba(62, 62, 62, 0.5);
+    font-size: 15px;
+    width: 600px;
+}
+.footer{
+    margin-top: 20px;
+    background-color: #F8F8F8;
+    position: relative;
+    padding: 30px;
+}
